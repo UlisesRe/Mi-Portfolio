@@ -1,0 +1,120 @@
+
+body{
+    
+    background-image: url(im.png);
+    background-size: 20vh auto;
+    background-position: 100%;
+    background-position-y: 50px;
+    background-color: #000000;
+    background-repeat:no-repeat;
+    
+    background-size:90vh auto;
+    Font-family: Franklin Gothic, Arial Bold;
+}
+
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header nav{
+    background-color: transparent(0, 0, 0);
+  
+    margin-bottom: 10px;
+    text-align: center;
+  }
+    header nav ul{
+      list-style: none;
+      overflow: hidden;
+      margin-top: -17px;
+    }
+    header nav ul li{
+      display: inline-block;
+    }
+    header nav ul li a{
+      font-size: 140%;
+      display: flex;
+      padding: 20px;
+      color: white;
+      text-decoration: none;
+      margin-top: 20px;
+
+    }
+a:hover{
+      
+      transform:scale(115%);
+      transition: all .2s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    display: inline;
+
+}
+
+.name{
+
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    margin-top: 35vh;
+    padding-left: 8vh;
+    
+}
+h1{
+    
+    font-size: 9vh; 
+
+}
+a:hover{
+    
+    transform:scale(115%);
+    transition: all .2s;
+}
+
+h2{
+    font-size: 3vh;
+    
+}
+
+@media (max-width: 650px) {
+    body{
+        background-size: 57vh;
+        background-position: center;
+        background-position-y: 40vh;
+        }
+    .H{
+        display: none;
+      }
+  .name{
+      color: white;
+      text-align: center;
+      margin-top: 9vh;
+      padding-left: 0;
+      }
+      h1{
+    
+        font-size: 6vh; 
+    
+    }
+    h2{
+        margin-left: 0%;
+    }
+}
+
